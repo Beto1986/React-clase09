@@ -1,3 +1,9 @@
+Ejemplo de consumo de API "https://randomuser.me/api/" en donde se trabaja con loaders y axios. Para ello previamente hay que instalar en nuestro proyecto los siguientes comandos: 
+npm install react-loader-spinner
+npm install axios
+
+Finalmente se mapean algunos datos de ejemplo como el genero, el nombre, el apellido y una foto. Al ir actualizando la página, se puede notar que los datos se van modificando.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
