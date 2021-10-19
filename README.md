@@ -4,6 +4,9 @@ Ejemplo de consumo de API "https://randomuser.me/api/" en donde se trabaja con l
 
 Finalmente se mapean algunos datos de ejemplo como el genero, el nombre, el apellido y una foto. Al ir actualizando la página, se puede notar que los datos se van modificando.
 
+Por ultimo hay una ejemplo comentado de cómo se utiliza el children.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
