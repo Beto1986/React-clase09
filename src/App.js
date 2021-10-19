@@ -3,6 +3,32 @@ import { useState, useEffect } from "react";
 import Loader from "react-loader-spinner";
 import Axios from "axios";
 
+// // Primer ejemplo realizado en clase.
+// function App() {
+//   const [isLoading, setIsLoading] = useState(false);
+//   const [titulo, setTitulo] = useState("");
+//   useEffect(() => {
+//     getTodos();
+//   }, []);
+//   const getTodos = async () => {
+//     setIsLoading(true);
+//     const respuesta = await Axios.get(
+//       "https://jsonplaceholder.typicode.com/todos/"
+//     );
+//     setTitulo(respuesta.data[0].title);
+//     setIsLoading(false);
+//   };
+//   return (
+//     <div className="App">
+//       {isLoading ? (
+//         <Loader type="Hearts" color="#FF0000" height={100} width={100} />
+//       ) : (
+//         <h1>{titulo}</h1>
+//       )}
+//     </div>
+//   );
+// }
+
 // Ejemplo realizado en clase.
 // function App() {
 
@@ -131,5 +157,30 @@ function App() {
     </div>
   );
 }
+
+// Introducccion a utilización de Children.
+
+// const LoaderCustom = ({ isLoading, children }) => {
+//   return isLoading ? (
+//     <Loader type="Hearts" color="#FF0000" height={100} width={100} />
+//   ) : (
+//     { ...children }
+//   );
+// };
+
+// function App() {
+//   const [isLoading, setIsLoading] = useState(false);
+
+//   return (
+//     <div className="App">
+//       <LoaderCustom isLoading={isLoading}>
+//         <>
+//           <h1>HOLA</h1>
+//           <p>Guayerd</p>
+//         </>
+//       </LoaderCustom>
+//     </div>
+//   );
+// }
 
 export default App;
